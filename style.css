@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+
+:root{
+    --pink: #DB7481;
+    --gray: rgb(216, 216, 216);
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Nav*/
+
+nav{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem 0;
+    position: absolute;
+    top: 0;
+}
+
+nav img{
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+nav a:hover{
+    color: var(--pink);
+}
+
+/*Introducción*/
+
+.introduccion{
+    height: 80vh;
+    padding-top: 20vh;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.introduccion h2{
+    width: 80vw;
+    font-size: 3rem;
+}
+
+.introduccion img{
+    width: 4rem;
+}
+
+/*Trabajos*/
+
+#trabajos{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#trabajos article{
+    width: 25vw;
+    height: 40vh;
+    background-color: whitesmoke;
+    margin: 0 .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#trabajos article:hover{
+    color: whitesmoke;
+    background-color: var(--pink);
+}
+
+#trabajos article p{
+    font-size: 3rem;
+}
+
+.article1{
+    background-color: black !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default !important;
+}
+
+.article1 p{
+    font-size: 4rem !important;
+    color: var(--gray);
+    font-weight: 400;
+    text-align: center;
+}
+
+/*Equipo*/
+
+#equipo{
+    width: 100vw;
+    height: 100vh;
+}
