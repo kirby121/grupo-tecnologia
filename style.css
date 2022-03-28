@@ -120,12 +120,13 @@ nav a:hover{
 }
 
 #trabajos article p{
-    font-size: 3rem;
+    font-size: 2rem;
+    margin: 0 3rem;
 }
 
 #trabajos article p::selection{
     background-color: transparent !important;
-    color: transparent !important;
+    color: gray !important;
 }
 
 .article1{
@@ -145,10 +146,19 @@ nav a:hover{
 
 /*Trabajos*/
 
+#trabajos article{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 .trabajo1{
     background-image: url("trabajo_en_equipo.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+
+.trabajo2{
+    background-image: url("arbol_de_ideas.jpeg");
 }
 
 /*Equipo*/
